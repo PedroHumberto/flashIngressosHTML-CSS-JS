@@ -33,7 +33,7 @@ for(let i = 0; i<infoIngressos.length; i++){
 ingressosDestaque.forEach(ingresso => {
     const getHtml = document.querySelector(".lista-destaques")       
         getHtml.innerHTML += ` <div class="card">
-                                    <div class="card-img"><img src="/img/${ingresso.imagem}" alt="${ingresso.nome}" title="${ingresso.nome}"></div>
+                                    <div class="card-img"><img src="img/${ingresso.imagem}" alt="${ingresso.nome}" title="${ingresso.nome}"></div>
                                     <div class="card-content">
                                     <p class="dia">${ingresso.data}</p>
                                     <p class="nome">${ingresso.nome}</p>
@@ -44,7 +44,7 @@ ingressosDestaque.forEach(ingresso => {
 ingressosFilme.forEach(ingresso => {
     const getHtml = document.querySelector(".lista-filmes")       
         getHtml.innerHTML += ` <div class="card">
-                                    <div class="card-img"><img src="/img/${ingresso.imagem}" alt="${ingresso.nome}" title="${ingresso.nome}"></div>
+                                    <div class="card-img"><img src="img/${ingresso.imagem}" alt="${ingresso.nome}" title="${ingresso.nome}"></div>
                                     <div class="card-content">
                                     <p class="dia">${ingresso.data}</p>
                                     <p class="nome">${ingresso.nome}</p>
